@@ -212,6 +212,10 @@ section{
     .scroll-down{
         display: none;
     }
+    .hero-img img:hover{
+        width: 440px;
+        opacity: 0.6;;
+    }
 }
 
 @media(max-width:768px){
@@ -252,5 +256,9 @@ section{
     }
     #menu-toggle:checked + label.menu-icon-action + ul{
         right: 0;
+    }
+    .hero-img img:hover{
+        width: 420px;
+        opacity: 0.6;;
     }
 }
